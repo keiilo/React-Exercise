@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+
 import './App.css';
+
+import Card from './Components/ui/Card';
+import Counter from './Components/ui/Couter';
+import List from './Components/ui/List';
+import Form from './Components/ui/Form';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Hello React Components</h1>
+
+      <Card
+        name="Kim"
+        description="Hellooooo"
+      />
+
+      <Counter />
+      <List />
+      <Form />
+
     </div>
   );
 }
