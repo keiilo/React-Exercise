@@ -1,4 +1,4 @@
-
+/*
 import './App.css';
 
 import Card from './Components/ui/Card';
@@ -22,6 +22,17 @@ function App() {
 
     </div>
   );
+}
+
+export default App;
+*/
+
+
+import './App.css';
+import Post from './Components/ui/post';
+
+function App() {
+    return <Post />;
 }
 
 export default App;
